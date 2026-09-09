@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #080808, #1a0b2e);
+    color: white;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+
+/* PROFILE */
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 45px;
+    font-weight: bold;
+
+    background: linear-gradient(135deg, #7b2cbf, #c77dff);
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 25px rgba(155, 89, 255, 0.5);
+}
+
+.profile h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #c77dff;
+}
+
+
+/* CARD */
+
+.card {
+    background: rgba(20, 20, 20, 0.9);
+
+    border: 1px solid #5a189a;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+
+    border-color: #c77dff;
+
+    box-shadow: 0 10px 30px rgba(123, 44, 191, 0.3);
+}
+
+.card h2 {
+    color: #c77dff;
+
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #5a189a;
+
+    padding-bottom: 10px;
+}
+
+
+/* INFORMATION */
+
+.info {
+    padding: 15px 0;
+
+    border-bottom: 1px solid #292929;
+}
+
+.info:last-child {
+    border-bottom: none;
+}
+
+.info span {
+    display: block;
+
+    color: #c77dff;
+
+    font-weight: bold;
+
+    margin-bottom: 6px;
+}
+
+.info p {
+    color: #dddddd;
+}
+
+
+/* LINK */
+
+a {
+    color: #c77dff;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
+
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+
+    margin-top: 30px;
+
+    color: #888;
+
+    font-size: 14px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    .profile h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+}
